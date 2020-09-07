@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_8e4aa193fd334263aae87ebe7f058ce7 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_8e4aa193fd334263aae87ebe7f058ce7" ></div>
+        
+</body>
+<script>    
+    
+            var map_8e4aa193fd334263aae87ebe7f058ce7 = L.map(
+                "map_8e4aa193fd334263aae87ebe7f058ce7",
+                {
+                    center: [28.559441999999997, 77.2072368],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_d3c08b5659ea48519cbec81fdc60b37b = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_8e4aa193fd334263aae87ebe7f058ce7);
+        
+    
+            var marker_51231c01ef2d41619d8ddcdb20af37e2 = L.marker(
+                [28.553076500000003, 77.1042695],
+                {}
+            ).addTo(map_8e4aa193fd334263aae87ebe7f058ce7);
+        
+    
+            var icon_0bd71469dff5415c8d8f96453f192ea7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_51231c01ef2d41619d8ddcdb20af37e2.setIcon(icon_0bd71469dff5415c8d8f96453f192ea7);
+        
+    
+        var popup_ad682a01c87c4fcda7d1437ba17cddf9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_283c46a8f82d49f28e7097d28328e9e3 = $(`<div id="html_283c46a8f82d49f28e7097d28328e9e3" style="width: 100.0%; height: 100.0%;">Aerocity  (Cluster 2)</div>`)[0];
+            popup_ad682a01c87c4fcda7d1437ba17cddf9.setContent(html_283c46a8f82d49f28e7097d28328e9e3);
+        
+
+        marker_51231c01ef2d41619d8ddcdb20af37e2.bindPopup(popup_ad682a01c87c4fcda7d1437ba17cddf9)
+        ;
+
+        
+    
+    
+            var marker_02c3daa59dec426fa8290cc7ba3c4be0 = L.marker(
+                [28.55480667, 77.12181085],
+                {}
+            ).addTo(map_8e4aa193fd334263aae87ebe7f058ce7);
+        
+    
+            var icon_0f2204e4d3b747438b9ebb479699d486 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_02c3daa59dec426fa8290cc7ba3c4be0.setIcon(icon_0f2204e4d3b747438b9ebb479699d486);
+        
+    
+        var popup_7aaf856e68ad432790fef3840f899dad = L.popup({"maxWidth": "100%"});
+
+        
+            var html_08ac5b7fa43a44898c0f8d05cc02f7ae = $(`<div id="html_08ac5b7fa43a44898c0f8d05cc02f7ae" style="width: 100.0%; height: 100.0%;">Andaz Delhi, Aerocity  (Cluster 2)</div>`)[0];
+            popup_7aaf856e68ad432790fef3840f899dad.setContent(html_08ac5b7fa43a44898c0f8d05cc02f7ae);
+        
+
+        marker_02c3daa59dec426fa8290cc7ba3c4be0.bindPopup(popup_7aaf856e68ad432790fef3840f899dad)
+        ;
+
+        
+    
+    
+            var marker_49bce45e98264ba8aff7f091cb880f1a = L.marker(
+                [28.5488265, 77.12716850000002],
+                {}
+            ).addTo(map_8e4aa193fd334263aae87ebe7f058ce7);
+        
+    
+            var icon_ed132aa0f62d4977899982f2bff92dbf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_49bce45e98264ba8aff7f091cb880f1a.setIcon(icon_ed132aa0f62d4977899982f2bff92dbf);
+        
+    
+        var popup_cd68262a8d86459faa3061b109de369b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_351d0b6a9d294671975b2080be4a15c7 = $(`<div id="html_351d0b6a9d294671975b2080be4a15c7" style="width: 100.0%; height: 100.0%;">Best Western Taurus Hotel, Mahipalpur  (Cluster 2)</div>`)[0];
+            popup_cd68262a8d86459faa3061b109de369b.setContent(html_351d0b6a9d294671975b2080be4a15c7);
+        
+
+        marker_49bce45e98264ba8aff7f091cb880f1a.bindPopup(popup_cd68262a8d86459faa3061b109de369b)
+        ;
+
+        
+    
+    
+            var marker_0296e419c93a40a19a3b5b5c9eaf2536 = L.marker(
+                [28.49562447, 77.16154855],
+                {}
+            ).addTo(map_8e4aa193fd334263aae87ebe7f058ce7);
+        
+    
+            var icon_aa357faad62449ab9ce1aee3950b1c1f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0296e419c93a40a19a3b5b5c9eaf2536.setIcon(icon_aa357faad62449ab9ce1aee3950b1c1f);
+        
+    
+        var popup_bccd4d1c21184ee5b86ffa7faefbaced = L.popup({"maxWidth": "100%"});
+
+        
+            var html_34f156736ec0479599533e24c2cf2e49 = $(`<div id="html_34f156736ec0479599533e24c2cf2e49" style="width: 100.0%; height: 100.0%;">Chhatarpur  (Cluster 2)</div>`)[0];
+            popup_bccd4d1c21184ee5b86ffa7faefbaced.setContent(html_34f156736ec0479599533e24c2cf2e49);
+        
+
+        marker_0296e419c93a40a19a3b5b5c9eaf2536.bindPopup(popup_bccd4d1c21184ee5b86ffa7faefbaced)
+        ;
+
+        
+    
+    
+            var marker_284d9217fdaf437aac981c16a130c641 = L.marker(
+                [28.5902969, 77.29752940000002],
+                {}
+            ).addTo(map_8e4aa193fd334263aae87ebe7f058ce7);
+        
+    
+            var icon_f01d7005651f4ae3b053c43ddbfd5832 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_284d9217fdaf437aac981c16a130c641.setIcon(icon_f01d7005651f4ae3b053c43ddbfd5832);
+        
+    
+        var popup_202a255fdcbb42e296a47d2ce1d8bc15 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_783b2e1ed42a4297a26399d8572c592a = $(`<div id="html_783b2e1ed42a4297a26399d8572c592a" style="width: 100.0%; height: 100.0%;">Crowne Plaza, Mayur Vihar Phase 1  (Cluster 2)</div>`)[0];
+            popup_202a255fdcbb42e296a47d2ce1d8bc15.setContent(html_783b2e1ed42a4297a26399d8572c592a);
+        
+
+        marker_284d9217fdaf437aac981c16a130c641.bindPopup(popup_202a255fdcbb42e296a47d2ce1d8bc15)
+        ;
+
+        
+    
+    
+            var marker_f36ee79da584486c95eb44cf67d38485 = L.marker(
+                [28.570246500000003, 77.2626355],
+                {}
+            ).addTo(map_8e4aa193fd334263aae87ebe7f058ce7);
+        
+    
+            var icon_afcaceae972a4e28a3597200cec5056b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f36ee79da584486c95eb44cf67d38485.setIcon(icon_afcaceae972a4e28a3597200cec5056b);
+        
+    
+        var popup_58d88a49cb4d4d07817c9cf4ef21795e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_590d16e45d5b4544b3547af49562354e = $(`<div id="html_590d16e45d5b4544b3547af49562354e" style="width: 100.0%; height: 100.0%;">Friends Colony  (Cluster 2)</div>`)[0];
+            popup_58d88a49cb4d4d07817c9cf4ef21795e.setContent(html_590d16e45d5b4544b3547af49562354e);
+        
+
+        marker_f36ee79da584486c95eb44cf67d38485.bindPopup(popup_58d88a49cb4d4d07817c9cf4ef21795e)
+        ;
+
+        
+    
+    
+            var marker_52bce7db58eb43bb90505732a2a70bd5 = L.marker(
+                [28.665829, 77.303949],
+                {}
+            ).addTo(map_8e4aa193fd334263aae87ebe7f058ce7);
+        
+    
+            var icon_497bd7be0ba14aba8e86864790beb5f3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_52bce7db58eb43bb90505732a2a70bd5.setIcon(icon_497bd7be0ba14aba8e86864790beb5f3);
+        
+    
+        var popup_4638c5fd18d5404d83ed6fe4a3e261cf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3ec855a153cc4089a270fb195bd96bbf = $(`<div id="html_3ec855a153cc4089a270fb195bd96bbf" style="width: 100.0%; height: 100.0%;">Ginger Hotel, Vivek Vihar  (Cluster 2)</div>`)[0];
+            popup_4638c5fd18d5404d83ed6fe4a3e261cf.setContent(html_3ec855a153cc4089a270fb195bd96bbf);
+        
+
+        marker_52bce7db58eb43bb90505732a2a70bd5.bindPopup(popup_4638c5fd18d5404d83ed6fe4a3e261cf)
+        ;
+
+        
+    
+    
+            var marker_c73e39621a8244c190ace4dfd56721c0 = L.marker(
+                [28.550327000000006, 77.122793],
+                {}
+            ).addTo(map_8e4aa193fd334263aae87ebe7f058ce7);
+        
+    
+            var icon_6e3a601ce9de41e8b2742d0a1cff01fe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c73e39621a8244c190ace4dfd56721c0.setIcon(icon_6e3a601ce9de41e8b2742d0a1cff01fe);
+        
+    
+        var popup_9cef15d0fc444cd7be14bb3215ae2dc4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3a428dc422c241ffa8a322b3cf5e1bd5 = $(`<div id="html_3a428dc422c241ffa8a322b3cf5e1bd5" style="width: 100.0%; height: 100.0%;">Holiday Inn, Aerocity  (Cluster 2)</div>`)[0];
+            popup_9cef15d0fc444cd7be14bb3215ae2dc4.setContent(html_3a428dc422c241ffa8a322b3cf5e1bd5);
+        
+
+        marker_c73e39621a8244c190ace4dfd56721c0.bindPopup(popup_9cef15d0fc444cd7be14bb3215ae2dc4)
+        ;
+
+        
+    
+    
+            var marker_f960d887aa18463ea56116e20b595a1d = L.marker(
+                [28.590653600000003, 77.29791374999998],
+                {}
+            ).addTo(map_8e4aa193fd334263aae87ebe7f058ce7);
+        
+    
+            var icon_fdbdd90fba7c4fb2a8f1c05bf2460ca9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f960d887aa18463ea56116e20b595a1d.setIcon(icon_fdbdd90fba7c4fb2a8f1c05bf2460ca9);
+        
+    
+        var popup_55e6117e475841e3aedf6b7763af15f6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d8f15b6ac79440419973f85f3c2fb272 = $(`<div id="html_d8f15b6ac79440419973f85f3c2fb272" style="width: 100.0%; height: 100.0%;">Holiday Inn, Mayur Vihar  (Cluster 2)</div>`)[0];
+            popup_55e6117e475841e3aedf6b7763af15f6.setContent(html_d8f15b6ac79440419973f85f3c2fb272);
+        
+
+        marker_f960d887aa18463ea56116e20b595a1d.bindPopup(popup_55e6117e475841e3aedf6b7763af15f6)
+        ;
+
+        
+    
+    
+            var marker_1f502fefc7e747aaaaf7f0785a40d8a5 = L.marker(
+                [28.70569985, 77.14313440000002],
+                {}
+            ).addTo(map_8e4aa193fd334263aae87ebe7f058ce7);
+        
+    
+            var icon_3db225bc77c140a690f34e179e63c8a4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1f502fefc7e747aaaaf7f0785a40d8a5.setIcon(icon_3db225bc77c140a690f34e179e63c8a4);
+        
+    
+        var popup_79e57c3ad888496b8d98421a23fd30aa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ea58613f3ecc4ed293b098376cf6b030 = $(`<div id="html_ea58613f3ecc4ed293b098376cf6b030" style="width: 100.0%; height: 100.0%;">Hotel City Park, Pitampura  (Cluster 2)</div>`)[0];
+            popup_79e57c3ad888496b8d98421a23fd30aa.setContent(html_ea58613f3ecc4ed293b098376cf6b030);
+        
+
+        marker_1f502fefc7e747aaaaf7f0785a40d8a5.bindPopup(popup_79e57c3ad888496b8d98421a23fd30aa)
+        ;
+
+        
+    
+    
+            var marker_63fd1ae9ef09471e84f40c1106d4eda5 = L.marker(
+                [28.62126693333333, 77.21703061666666],
+                {}
+            ).addTo(map_8e4aa193fd334263aae87ebe7f058ce7);
+        
+    
+            var icon_fc52f48295eb4873952b4f8b132c70d3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_63fd1ae9ef09471e84f40c1106d4eda5.setIcon(icon_fc52f48295eb4873952b4f8b132c70d3);
+        
+    
+        var popup_ac33ba39a6c943878923a2e522d8acb3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d64995f779084de089a73d792a23ce96 = $(`<div id="html_d64995f779084de089a73d792a23ce96" style="width: 100.0%; height: 100.0%;">Hotel The Royal Plaza, Janpath  (Cluster 2)</div>`)[0];
+            popup_ac33ba39a6c943878923a2e522d8acb3.setContent(html_d64995f779084de089a73d792a23ce96);
+        
+
+        marker_63fd1ae9ef09471e84f40c1106d4eda5.bindPopup(popup_ac33ba39a6c943878923a2e522d8acb3)
+        ;
+
+        
+    
+    
+            var marker_ae9685e66e594515bebc34e53485e167 = L.marker(
+                [28.552895, 77.121445],
+                {}
+            ).addTo(map_8e4aa193fd334263aae87ebe7f058ce7);
+        
+    
+            var icon_89945fe572c8420b98e3cbb83f7c06b3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ae9685e66e594515bebc34e53485e167.setIcon(icon_89945fe572c8420b98e3cbb83f7c06b3);
+        
+    
+        var popup_b42865205c3b4cb4a758f90a4c73a942 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_37c17c8734934c3488acee4aa3072439 = $(`<div id="html_37c17c8734934c3488acee4aa3072439" style="width: 100.0%; height: 100.0%;">JW Marriott New Delhi  (Cluster 2)</div>`)[0];
+            popup_b42865205c3b4cb4a758f90a4c73a942.setContent(html_37c17c8734934c3488acee4aa3072439);
+        
+
+        marker_ae9685e66e594515bebc34e53485e167.bindPopup(popup_b42865205c3b4cb4a758f90a4c73a942)
+        ;
+
+        
+    
+    
+            var marker_dbd56731872d4385965da84c6a5ba065 = L.marker(
+                [28.61877246666667, 77.21853461666667],
+                {}
+            ).addTo(map_8e4aa193fd334263aae87ebe7f058ce7);
+        
+    
+            var icon_bd54d3ba5b7b4cf5888766d726aca78c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_dbd56731872d4385965da84c6a5ba065.setIcon(icon_bd54d3ba5b7b4cf5888766d726aca78c);
+        
+    
+        var popup_9a6fec1d52ba4e33ba969879f810441b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bb528e32b5ae439192469b8e1d948349 = $(`<div id="html_bb528e32b5ae439192469b8e1d948349" style="width: 100.0%; height: 100.0%;">Le Meridien, Janpath  (Cluster 2)</div>`)[0];
+            popup_9a6fec1d52ba4e33ba969879f810441b.setContent(html_bb528e32b5ae439192469b8e1d948349);
+        
+
+        marker_dbd56731872d4385965da84c6a5ba065.bindPopup(popup_9a6fec1d52ba4e33ba969879f810441b)
+        ;
+
+        
+    
+    
+            var marker_6a6d27d4d298402bbb863c4586f975b6 = L.marker(
+                [28.552036, 77.12091099999998],
+                {}
+            ).addTo(map_8e4aa193fd334263aae87ebe7f058ce7);
+        
+    
+            var icon_e039c65af7e048f78a9f11a647354722 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6a6d27d4d298402bbb863c4586f975b6.setIcon(icon_e039c65af7e048f78a9f11a647354722);
+        
+    
+        var popup_2a57eefb43c5435f9c856ea02d791ec4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c63c6fcc3dbf48188e5cf5fcdcefecac = $(`<div id="html_c63c6fcc3dbf48188e5cf5fcdcefecac" style="width: 100.0%; height: 100.0%;">Lemon Tree Premier, Aerocity  (Cluster 2)</div>`)[0];
+            popup_2a57eefb43c5435f9c856ea02d791ec4.setContent(html_c63c6fcc3dbf48188e5cf5fcdcefecac);
+        
+
+        marker_6a6d27d4d298402bbb863c4586f975b6.bindPopup(popup_2a57eefb43c5435f9c856ea02d791ec4)
+        ;
+
+        
+    
+    
+            var marker_007f21ef63914b4db769115d7a5f0365 = L.marker(
+                [28.545032916, 77.12424886799998],
+                {}
+            ).addTo(map_8e4aa193fd334263aae87ebe7f058ce7);
+        
+    
+            var icon_271acda64fb34e5b909fbfa0fbffc822 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_007f21ef63914b4db769115d7a5f0365.setIcon(icon_271acda64fb34e5b909fbfa0fbffc822);
+        
+    
+        var popup_e9376abe9e8b4ff6b0a1336b306f75c2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9d271f9139154f05b8ed90a76f524b45 = $(`<div id="html_9d271f9139154f05b8ed90a76f524b45" style="width: 100.0%; height: 100.0%;">Mahipalpur  (Cluster 2)</div>`)[0];
+            popup_e9376abe9e8b4ff6b0a1336b306f75c2.setContent(html_9d271f9139154f05b8ed90a76f524b45);
+        
+
+        marker_007f21ef63914b4db769115d7a5f0365.bindPopup(popup_e9376abe9e8b4ff6b0a1336b306f75c2)
+        ;
+
+        
+    
+    
+            var marker_337e4d74ab7d408a97450560372876cc = L.marker(
+                [28.6082519875, 77.334908721],
+                {}
+            ).addTo(map_8e4aa193fd334263aae87ebe7f058ce7);
+        
+    
+            var icon_e5ad87859fb448cdb711ef34480954eb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_337e4d74ab7d408a97450560372876cc.setIcon(icon_e5ad87859fb448cdb711ef34480954eb);
+        
+    
+        var popup_611c399e7dc345d4af34fa5feb9abf09 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_089a32b36fc143608f6d7a8d7ac27eb8 = $(`<div id="html_089a32b36fc143608f6d7a8d7ac27eb8" style="width: 100.0%; height: 100.0%;">Mayur Vihar Phase 3  (Cluster 2)</div>`)[0];
+            popup_611c399e7dc345d4af34fa5feb9abf09.setContent(html_089a32b36fc143608f6d7a8d7ac27eb8);
+        
+
+        marker_337e4d74ab7d408a97450560372876cc.bindPopup(popup_611c399e7dc345d4af34fa5feb9abf09)
+        ;
+
+        
+    
+    
+            var marker_5493ba332b00478cadb2e744c3feb68c = L.marker(
+                [28.642910316379307, 77.21338691103449],
+                {}
+            ).addTo(map_8e4aa193fd334263aae87ebe7f058ce7);
+        
+    
+            var icon_ac6d1179182545cdb8a7db8b384674c9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5493ba332b00478cadb2e744c3feb68c.setIcon(icon_ac6d1179182545cdb8a7db8b384674c9);
+        
+    
+        var popup_52a71ef2eaf442e9bc849c245fbce621 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a4c4da15c83c4954a4f73b3a41ea0edb = $(`<div id="html_a4c4da15c83c4954a4f73b3a41ea0edb" style="width: 100.0%; height: 100.0%;">Paharganj  (Cluster 2)</div>`)[0];
+            popup_52a71ef2eaf442e9bc849c245fbce621.setContent(html_a4c4da15c83c4954a4f73b3a41ea0edb);
+        
+
+        marker_5493ba332b00478cadb2e744c3feb68c.bindPopup(popup_52a71ef2eaf442e9bc849c245fbce621)
+        ;
+
+        
+    
+    
+            var marker_a623db93348a4937b65678f8b4abe4b8 = L.marker(
+                [28.725814, 77.144054],
+                {}
+            ).addTo(map_8e4aa193fd334263aae87ebe7f058ce7);
+        
+    
+            var icon_5ef31d3b9f234e2f8cb66777484f1ac1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a623db93348a4937b65678f8b4abe4b8.setIcon(icon_5ef31d3b9f234e2f8cb66777484f1ac1);
+        
+    
+        var popup_44676e14866e40ac8313e7999f6da8cb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9021ff85983a418eaf06ec2ad1aff08a = $(`<div id="html_9021ff85983a418eaf06ec2ad1aff08a" style="width: 100.0%; height: 100.0%;">Premier Inn, Shalimar Bagh  (Cluster 2)</div>`)[0];
+            popup_44676e14866e40ac8313e7999f6da8cb.setContent(html_9021ff85983a418eaf06ec2ad1aff08a);
+        
+
+        marker_a623db93348a4937b65678f8b4abe4b8.bindPopup(popup_44676e14866e40ac8313e7999f6da8cb)
+        ;
+
+        
+    
+    
+            var marker_29a41e62810d44aba84ced84669f437b = L.marker(
+                [28.552711, 77.122934],
+                {}
+            ).addTo(map_8e4aa193fd334263aae87ebe7f058ce7);
+        
+    
+            var icon_35972a90a06840068165a48f3383e536 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_29a41e62810d44aba84ced84669f437b.setIcon(icon_35972a90a06840068165a48f3383e536);
+        
+    
+        var popup_073d155625c14f7b9db82160da0cf9d8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ecbb8bbaf90f45f291b8cddc3b802aa5 = $(`<div id="html_ecbb8bbaf90f45f291b8cddc3b802aa5" style="width: 100.0%; height: 100.0%;">Pride Plaza Hotel, Aerocity  (Cluster 2)</div>`)[0];
+            popup_073d155625c14f7b9db82160da0cf9d8.setContent(html_ecbb8bbaf90f45f291b8cddc3b802aa5);
+        
+
+        marker_29a41e62810d44aba84ced84669f437b.bindPopup(popup_073d155625c14f7b9db82160da0cf9d8)
+        ;
+
+        
+    
+    
+            var marker_2dc53f31e52f45649854fcf017e03af6 = L.marker(
+                [28.5438142, 77.11960935],
+                {}
+            ).addTo(map_8e4aa193fd334263aae87ebe7f058ce7);
+        
+    
+            var icon_3efae4055d5a404bbe0b3abfb4d20667 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2dc53f31e52f45649854fcf017e03af6.setIcon(icon_3efae4055d5a404bbe0b3abfb4d20667);
+        
+    
+        var popup_f8608e88ebb74cf49f7d95504dcbafa2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ca13e33b584d42759879775b615de6cd = $(`<div id="html_ca13e33b584d42759879775b615de6cd" style="width: 100.0%; height: 100.0%;">Radisson Blu Plaza Delhi, Mahipalpur  (Cluster 2)</div>`)[0];
+            popup_f8608e88ebb74cf49f7d95504dcbafa2.setContent(html_ca13e33b584d42759879775b615de6cd);
+        
+
+        marker_2dc53f31e52f45649854fcf017e03af6.bindPopup(popup_f8608e88ebb74cf49f7d95504dcbafa2)
+        ;
+
+        
+    
+    
+            var marker_58dba20d8b1e489eaeb9bccc842cb715 = L.marker(
+                [28.667260700000003, 77.09058900000001],
+                {}
+            ).addTo(map_8e4aa193fd334263aae87ebe7f058ce7);
+        
+    
+            var icon_1be0803a9a4f4fa697f75abd69623312 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_58dba20d8b1e489eaeb9bccc842cb715.setIcon(icon_1be0803a9a4f4fa697f75abd69623312);
+        
+    
+        var popup_db7d9c48b3524494a43b49d6f4d6ea0d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5d8486b2278844699f80ba97f8fd160b = $(`<div id="html_5d8486b2278844699f80ba97f8fd160b" style="width: 100.0%; height: 100.0%;">Radisson Blu, Paschim Vihar  (Cluster 2)</div>`)[0];
+            popup_db7d9c48b3524494a43b49d6f4d6ea0d.setContent(html_5d8486b2278844699f80ba97f8fd160b);
+        
+
+        marker_58dba20d8b1e489eaeb9bccc842cb715.bindPopup(popup_db7d9c48b3524494a43b49d6f4d6ea0d)
+        ;
+
+        
+    
+    
+            var marker_5a0dd40180394479bc94b270594cb987 = L.marker(
+                [28.550802, 77.120533],
+                {}
+            ).addTo(map_8e4aa193fd334263aae87ebe7f058ce7);
+        
+    
+            var icon_8064aff60d31430e9e1dc5903d265b75 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5a0dd40180394479bc94b270594cb987.setIcon(icon_8064aff60d31430e9e1dc5903d265b75);
+        
+    
+        var popup_b5e26a5992454fe2b1d8274ea5ddc9aa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1c0680b8d44c4ed0a3612f98d53adbd7 = $(`<div id="html_1c0680b8d44c4ed0a3612f98d53adbd7" style="width: 100.0%; height: 100.0%;">Roseate House, Aerocity  (Cluster 2)</div>`)[0];
+            popup_b5e26a5992454fe2b1d8274ea5ddc9aa.setContent(html_1c0680b8d44c4ed0a3612f98d53adbd7);
+        
+
+        marker_5a0dd40180394479bc94b270594cb987.bindPopup(popup_b5e26a5992454fe2b1d8274ea5ddc9aa)
+        ;
+
+        
+    
+    
+            var marker_11beb7ba7b82497bbe08c6a46028ac3c = L.marker(
+                [28.6207152, 77.21781528],
+                {}
+            ).addTo(map_8e4aa193fd334263aae87ebe7f058ce7);
+        
+    
+            var icon_a56dff662a5f40179a16865aaeed910a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_11beb7ba7b82497bbe08c6a46028ac3c.setIcon(icon_a56dff662a5f40179a16865aaeed910a);
+        
+    
+        var popup_15c9529f64814a029e316175961117a8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_efd351cfb5d0453882198e919470dbcd = $(`<div id="html_efd351cfb5d0453882198e919470dbcd" style="width: 100.0%; height: 100.0%;">Shangri La&#39;s - Eros hotel, Janpath  (Cluster 2)</div>`)[0];
+            popup_15c9529f64814a029e316175961117a8.setContent(html_efd351cfb5d0453882198e919470dbcd);
+        
+
+        marker_11beb7ba7b82497bbe08c6a46028ac3c.bindPopup(popup_15c9529f64814a029e316175961117a8)
+        ;
+
+        
+    
+    
+            var marker_ba2fdda702414ba7a0f17ba2d6d30853 = L.marker(
+                [28.59272352857143, 77.29637142857142],
+                {}
+            ).addTo(map_8e4aa193fd334263aae87ebe7f058ce7);
+        
+    
+            var icon_9fad410c39e944858d9028270ec7b96b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ba2fdda702414ba7a0f17ba2d6d30853.setIcon(icon_9fad410c39e944858d9028270ec7b96b);
+        
+    
+        var popup_cdc3232da69a4c2e80db379ff48b7b31 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fa3a6e3bf9cd496c96af0d66b1bf78fe = $(`<div id="html_fa3a6e3bf9cd496c96af0d66b1bf78fe" style="width: 100.0%; height: 100.0%;">Star City Mall, Mayur Vihar Phase 1  (Cluster 2)</div>`)[0];
+            popup_cdc3232da69a4c2e80db379ff48b7b31.setContent(html_fa3a6e3bf9cd496c96af0d66b1bf78fe);
+        
+
+        marker_ba2fdda702414ba7a0f17ba2d6d30853.bindPopup(popup_cdc3232da69a4c2e80db379ff48b7b31)
+        ;
+
+        
+    
+    
+            var marker_a92ab2aaf6864fe6a21989d56153874f = L.marker(
+                [28.60017127142857, 77.216911],
+                {}
+            ).addTo(map_8e4aa193fd334263aae87ebe7f058ce7);
+        
+    
+            var icon_f54edb3711cf43b6a493437a829e51e7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a92ab2aaf6864fe6a21989d56153874f.setIcon(icon_f54edb3711cf43b6a493437a829e51e7);
+        
+    
+        var popup_e4ff25e806094cfda49be99e53d9d9c9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fe4c0936b0384419844afd88512a581a = $(`<div id="html_fe4c0936b0384419844afd88512a581a" style="width: 100.0%; height: 100.0%;">The Claridges, Aurangzeb Road  (Cluster 2)</div>`)[0];
+            popup_e4ff25e806094cfda49be99e53d9d9c9.setContent(html_fe4c0936b0384419844afd88512a581a);
+        
+
+        marker_a92ab2aaf6864fe6a21989d56153874f.bindPopup(popup_e4ff25e806094cfda49be99e53d9d9c9)
+        ;
+
+        
+    
+    
+            var marker_5b6f1cae11c8460ca71bc4e19d688461 = L.marker(
+                [28.623619316666666, 77.21690428333334],
+                {}
+            ).addTo(map_8e4aa193fd334263aae87ebe7f058ce7);
+        
+    
+            var icon_31610aaf014447809168b335e6670c5f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5b6f1cae11c8460ca71bc4e19d688461.setIcon(icon_31610aaf014447809168b335e6670c5f);
+        
+    
+        var popup_d58022fb87a9448a88c35415b0cb98f8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_483463200d2646978f3b5c8d39925a5e = $(`<div id="html_483463200d2646978f3b5c8d39925a5e" style="width: 100.0%; height: 100.0%;">The Park, Connaught Place  (Cluster 2)</div>`)[0];
+            popup_d58022fb87a9448a88c35415b0cb98f8.setContent(html_483463200d2646978f3b5c8d39925a5e);
+        
+
+        marker_5b6f1cae11c8460ca71bc4e19d688461.bindPopup(popup_d58022fb87a9448a88c35415b0cb98f8)
+        ;
+
+        
+    
+    
+            var marker_7b616aa0485a4087b0f5b526f1e955bf = L.marker(
+                [28.535183, 77.10184699999998],
+                {}
+            ).addTo(map_8e4aa193fd334263aae87ebe7f058ce7);
+        
+    
+            var icon_a715fb981d7a4c04b55925cdc23dc02a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7b616aa0485a4087b0f5b526f1e955bf.setIcon(icon_a715fb981d7a4c04b55925cdc23dc02a);
+        
+    
+        var popup_593fb81a3a9a41ed84396a9c92a49855 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c397858a31924dc7b0697b784f15035c = $(`<div id="html_c397858a31924dc7b0697b784f15035c" style="width: 100.0%; height: 100.0%;">The Uppal, Aerocity  (Cluster 2)</div>`)[0];
+            popup_593fb81a3a9a41ed84396a9c92a49855.setContent(html_c397858a31924dc7b0697b784f15035c);
+        
+
+        marker_7b616aa0485a4087b0f5b526f1e955bf.bindPopup(popup_593fb81a3a9a41ed84396a9c92a49855)
+        ;
+
+        
+    
+    
+            var marker_7f6a709fa6244fa6a97758107967b4c4 = L.marker(
+                [28.648176899999996, 77.16666695],
+                {}
+            ).addTo(map_8e4aa193fd334263aae87ebe7f058ce7);
+        
+    
+            var icon_7a4f221ccd9c41ea9f38efe7946c4810 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7f6a709fa6244fa6a97758107967b4c4.setIcon(icon_7a4f221ccd9c41ea9f38efe7946c4810);
+        
+    
+        var popup_7fbf4b2c78b643ad8417e5967db9e7e9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6e43cde726e94126a7d0f712032844a5 = $(`<div id="html_6e43cde726e94126a7d0f712032844a5" style="width: 100.0%; height: 100.0%;">West Patel Nagar  (Cluster 2)</div>`)[0];
+            popup_7fbf4b2c78b643ad8417e5967db9e7e9.setContent(html_6e43cde726e94126a7d0f712032844a5);
+        
+
+        marker_7f6a709fa6244fa6a97758107967b4c4.bindPopup(popup_7fbf4b2c78b643ad8417e5967db9e7e9)
+        ;
+
+        
+    
+    
+            var marker_5c7d361586f4432d9c89a9c9a301d0db = L.marker(
+                [28.55992833, 77.20829028625],
+                {}
+            ).addTo(map_8e4aa193fd334263aae87ebe7f058ce7);
+        
+    
+            var icon_66da2163ae604fe0a0938e0a86e1b529 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5c7d361586f4432d9c89a9c9a301d0db.setIcon(icon_66da2163ae604fe0a0938e0a86e1b529);
+        
+    
+        var popup_b8ac0f8dec3043eba6ec9941dcf29eec = L.popup({"maxWidth": "100%"});
+
+        
+            var html_15cff23b5a7344cca041ca1e69611fff = $(`<div id="html_15cff23b5a7344cca041ca1e69611fff" style="width: 100.0%; height: 100.0%;">Yusuf Sarai  (Cluster 2)</div>`)[0];
+            popup_b8ac0f8dec3043eba6ec9941dcf29eec.setContent(html_15cff23b5a7344cca041ca1e69611fff);
+        
+
+        marker_5c7d361586f4432d9c89a9c9a301d0db.bindPopup(popup_b8ac0f8dec3043eba6ec9941dcf29eec)
+        ;
+
+        
+    
+</script>
